@@ -7,7 +7,7 @@ import (
 )
 
 func tipo(i interface{}) string {
-	switch i.(type) {
+	switch i.(type) { // ?-> i.(type)?
 	case int:
 		return "inteiro"
 	case float32, float64:
