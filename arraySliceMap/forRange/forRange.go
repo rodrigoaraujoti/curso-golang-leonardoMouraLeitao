@@ -6,7 +6,7 @@ import "fmt"
 func main() {
 	numeros := [...]int{1, 2, 3, 4, 5} // o compilador conta!
 
-	fmt.Println("for index, item := range arraySlice")
+	fmt.Println("for index, item := range arraySliceMap")
 	for i, numero := range numeros {
 		fmt.Printf("%d) %d\n", i, numero)
 	}
