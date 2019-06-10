@@ -4,6 +4,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"reflect"
 )
 
 type produto struct {
@@ -26,5 +27,6 @@ func main() {
 	jsonString := `{"id":2,"nome":"Caneta","preco":8.90,"tags":["Papelaria","Importado"]}`
 	json.Unmarshal([]byte(jsonString), &p2)
 	fmt.Println(p2.Tags)
+	fmt.Println(reflect.TypeOf(jsonString)) // string?
 
 }
