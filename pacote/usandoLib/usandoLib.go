@@ -7,9 +7,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/rodrigoaraujoti/go_area"
+	"github.com/rodrigoaraujoti/go_area/goarea"
 )
 
 func main() {
-	fmt.Println(go_area.Circ(4.0))
+	fmt.Println(goarea.Circ(4.0))
 }

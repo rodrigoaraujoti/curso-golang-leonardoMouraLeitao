@@ -6,11 +6,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/rodrigoaraujoti/go_area"
+	"github.com/rodrigoaraujoti/go_area/goarea"
 )
 
 func main() {
-	fmt.Println(go_area.Circ(6))
-	fmt.Println(go_area.Rect(5, 2))
+	fmt.Println(goarea.Circ(6))
+	fmt.Println(goarea.Rect(5, 2))
 	// fmt.Println(area._TrianguloEq(5, 2)) esta privado
 }
