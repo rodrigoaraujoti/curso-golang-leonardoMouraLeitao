@@ -33,7 +33,7 @@ func main() {
 	urls := []string{
 		"https://www.cod3r.com.br",
 		"https://www.google.com.br",
-		"https://www.amazon.com",
+		"https://g1.globo.com/", //https://www.amazon.com ->erro sem tratamento
 		"https://www.youtube.com",
 	}
 
