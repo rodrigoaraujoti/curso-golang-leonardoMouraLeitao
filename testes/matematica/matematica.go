@@ -1,5 +1,6 @@
-// AULA79 - TESTE UNITARIO BASICO
 package matematica
+
+// AULA79 - TESTE UNITARIO BASICO
 
 import (
 	"fmt"
